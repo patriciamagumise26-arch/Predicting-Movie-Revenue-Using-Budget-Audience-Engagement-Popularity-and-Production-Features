@@ -7,7 +7,7 @@ A regression project that predicts box-office revenue from pre-release and produ
 Studios, distributors, and investors need to make marketing, release-timing, and investment decisions long before a film's true performance is known. This project builds and compares several regression models to predict movie revenue from features available pre- or at-release, and identifies which factors actually drive box-office outcomes.
 
 **Problem type:** Regression (revenue is continuous)
-**Dataset:** [TMDB Movie Dataset](https://www.kaggle.com/) (Kaggle)  budget, popularity, vote average/count, runtime, language, genres, production companies/countries, release date, etc.
+**Dataset:** [TMDB Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)) (Kaggle)  budget, popularity, vote average/count, runtime, language, genres, production companies/countries, release date, etc.
 **Final dataset size:** 3,376 rows × 15 columns after cleaning
 
 ##  Key Findings
