@@ -12,7 +12,7 @@ Studios, distributors, and investors need to make marketing, release-timing, and
 
 ##  Key Findings
 
-- **Vote count (r = 0.76)**, **budget (r = 0.71)**, and **popularity (r = 0.61)** are by far the strongest predictors of revenue — the only three features correlated above 0.5 with the target.
+- **Vote count (r = 0.76)**, **budget (r = 0.71)**, and **popularity (r = 0.61)** are by far the strongest predictors of revenue  the only three features correlated above 0.5 with the target.
 - Revenue is heavily right-skewed (≈49% of movies earn under $50M, <1% exceed $1B), so the target was log-transformed using a `TransformedTargetRegressor`.
 - Because the top predictors are correlated with each other (e.g., popularity vs. vote count, r = 0.75), tree-based models that can capture non-linear interactions substantially outperform linear models.
 - **Random Forest was the best model overall**, achieving the lowest test RMSE ($114M) and the most stable cross-validation performance ($3.8M std).
